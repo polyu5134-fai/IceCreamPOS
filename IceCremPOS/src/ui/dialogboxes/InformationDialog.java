@@ -55,7 +55,7 @@ public class InformationDialog extends JDialog {
 					abstractButtonPanel.addButton(descriptionTextField.getText(),Double.parseDouble(costTextField.getText()));
 
 				}catch (Exception ex) {
-					
+					// simple handling for any incorrect input
 					JOptionPane.showMessageDialog(InformationDialog.this, "Invalid Input, please try again");
 					
 				}
@@ -70,7 +70,7 @@ public class InformationDialog extends JDialog {
 		this.getContentPane().add(confirmButton,BorderLayout.SOUTH);
 		this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
 		this.setSize(350, 150);
-		//this.setVisible(true);
+
 		
 	}
 	

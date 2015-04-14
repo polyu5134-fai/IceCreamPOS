@@ -41,7 +41,7 @@ public class OptionDialog extends JDialog {
 		this.getContentPane().add(optionPanel);
 		this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
 		this.setSize(150, 150);
-		//this.setVisible(true);
+
 		
 	}
 	

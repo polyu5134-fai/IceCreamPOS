@@ -14,7 +14,7 @@ public class IceCreamDecoratorPanel extends AbstractButtonPanel {
 	//private constructor
 	private IceCreamDecoratorPanel() {
 
-		//initialize some decorator button
+		//initialize some decorator buttons
 		this.add(new DecoratorButton("M & M", 5));
 		this.add(new DecoratorButton("Strawberry", 4));
 		// disable all buttons initially

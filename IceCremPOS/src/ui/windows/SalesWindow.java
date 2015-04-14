@@ -15,18 +15,18 @@ public class SalesWindow extends JFrame {
 	public SalesWindow() {
 		
 		super("SalesWindow");
-		//this.setLayout(new GridLayout(3,3));
+
 		this.setLayout(new BorderLayout());
 		
-		//initialize the panels
+		//initialize the center panels
 		JPanel centerPanel = new JPanel(new GridLayout());
-		//intialize the main Panels, it is the only object of the class(es)
+		//initialize the main Panels, it is the only object of the class(es)
 		centerPanel.add(new JScrollPane(IceCreamFlavorPanel.getIceCreamFlavorPanel()));
 		centerPanel.add(new JScrollPane(IceCreamDecoratorPanel.getIceCreamDecoratorPanel()));
 		centerPanel.add(SalesPanel.getSalesPanel());
 		this.add(centerPanel, BorderLayout.CENTER);
 		
-		
+		//initialize top panel
 		JPanel topPanel = new JPanel(new GridLayout());
 		topPanel.add(new JLabel("ICE-CREAM Flavor"));
 		topPanel.add(new JLabel("Decorator"));
@@ -51,7 +51,7 @@ public class SalesWindow extends JFrame {
 	            }		
 		});
 		
-		//intialize the IceCreamButton, it is the only object of the class
+		
 		topPanel.add(iceCreamButton);
 		this.add(topPanel, BorderLayout.NORTH);
 		
