@@ -4,9 +4,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 import javax.swing.*;
-
 import ui.panels.*;
-import ui.buttons.*;
 import ui.dialogboxes.OptionDialog;
 
 public class SalesWindow extends JFrame {
@@ -58,7 +56,7 @@ public class SalesWindow extends JFrame {
 		
 		JPanel bottomPanel = new JPanel(new GridLayout(1,3));
 		//create admin button
-		JButton adminButton = new JButton("[System Administrator]");
+		final JButton adminButton = new JButton("[System Administrator]");
 		//when the button is press, show optiondialog
 		adminButton.addActionListener(
 		new ActionListener() {

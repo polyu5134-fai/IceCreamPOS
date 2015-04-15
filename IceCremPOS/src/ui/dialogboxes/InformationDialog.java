@@ -1,13 +1,11 @@
 package ui.dialogboxes;
 import javax.swing.*;
 
-import ui.buttons.*;
 import ui.panels.*;
 
 import java.awt.*;
 import java.awt.event.*;
 
-import domain.*;
 
 public class InformationDialog extends JDialog {
 	

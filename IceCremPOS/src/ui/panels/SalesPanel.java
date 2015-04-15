@@ -1,7 +1,6 @@
 package ui.panels;
 import javax.swing.*;
 import java.awt.*;
-import ui.windows.*;
 import domain.*;
 
 

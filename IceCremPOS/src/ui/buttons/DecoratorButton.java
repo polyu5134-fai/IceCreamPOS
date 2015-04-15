@@ -1,13 +1,7 @@
 package ui.buttons;
-import javax.swing.*;
 
 import ui.panels.IceCreamFlavorPanel;
-import ui.panels.SalesPanel;
-
-import java.awt.*;
 import java.awt.event.*;
-
-import domain.*;
 
 public class DecoratorButton extends AbstractInformationButton {
 

@@ -1,9 +1,5 @@
 package ui.panels;
-import javax.swing.*;
 
-import java.awt.*;
-
-import ui.windows.*;
 import ui.buttons.*;
 
 public class IceCreamFlavorPanel extends AbstractButtonPanel {
